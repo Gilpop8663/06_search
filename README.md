@@ -1,6 +1,10 @@
 ## 배포 주소
 
-<a href="https://gilpop8663.github.io/06_search/">배포 사이트</a>
+## <a href="https://gilpop8663.github.io/06_search/">배포 사이트</a>
+
+## 회고록
+## <a href="https://hell-of-company-builder.tistory.com/270?category=921712">블로그 회고록</a>
+
 
 ## 💻 설치 방법
 
