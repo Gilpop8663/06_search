@@ -1,6 +1,6 @@
 import { FormEvent, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AutoComplete, Input } from 'antd';
+import { AutoComplete, Input, InputRef } from 'antd';
 import { medicineDataProps } from 'api/api';
 import {
   CATEGORY_ALL,
@@ -19,7 +19,7 @@ export default function SearchInput({ data }: searchInputProps) {
   const navigate = useNavigate();
   const [text, setText] = useState('');
   const [category, setCategory] = useState(CATEGORY_ALL);
-  const textInputRef = useRef<Input>(null);
+  const textInputRef = useRef<InputRef>(null);
 
   function onChange(e: string) {
     setText(e);

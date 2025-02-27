@@ -3,7 +3,7 @@ export interface medicineDataProps {
   brand?: string;
 }
 
-const BASE_URL ='https://portfolio.coddink.com/api/fakeProjects/medicine';
+const BASE_URL = 'https://portfolio.coddink.com/api/fakeProjects/medicine';
 
 export const getData = () => {
   return fetch(BASE_URL).then((res) => res.json());
